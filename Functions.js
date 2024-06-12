@@ -38,6 +38,19 @@ function vowel(str){
     return count;
 }
 
+vowel("Hello");
+
+const vowCheck = (str) => {
+    let count = 0
+    for(let s of str){
+        if(s === 'a' || s === 'e' || s === 'i' || s === 'o' || s === 'u'){
+            count++;
+        }
+    }
+    return count;
+}
+vowCheck("Hello");
+
 // forEach loop ---> One function is passed as an argument of another function
 // Also called callBack function
 
@@ -86,3 +99,19 @@ let printArr = arrr.filter((val) =>{
 })
 
 console.log(printArr)
+
+let p = [10 , 20 , 30 , 40 , 50]
+
+let printP = p.map((val) => {
+    return val
+});
+
+console.log(printP)
+
+let m = [100 , 120 , 50 , 30 , 99 , 91]
+
+let score90 = m.filter((val) =>{
+    return val >= 90
+});
+
+console.log(score90)
