@@ -3,7 +3,7 @@ console.log(marks);
 console.log(marks.length);
 console.log(typeof marks);
 
-// Traversing array using loops
+// Traversing array using loops.
 let sec = ["A" , "B" , "C" , "D" , "E"];
 for(let idx = 0; idx < sec.length; idx++){
     console.log(sec[idx]);
